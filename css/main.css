@@ -1,0 +1,66 @@
+body {
+  background-color: black;
+  background-image: url("../img/markus-spiske-iar-afB0QQw-unsplash.jpg");
+  background-size: contain;
+}
+.films__input-search {
+  margin-bottom: 20px;
+}
+.films__input-search {
+  max-width: 300px;
+  width: 100%;
+  padding: 10px;
+  border: 2px solid green;
+  background-color: #000;
+  color: green;
+  outline: none;
+}
+
+.films__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 10px;
+  list-style-type: none;
+  color: green;
+}
+
+.film {
+  border: 5px solid green;
+  margin-left: 50px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+  max-width: 300px;
+  width: 100%;
+}
+.film:hover {
+  background-color: green;
+  color: black;
+  transition: 1s ease;
+}
+.film__id {
+  display: none;
+}
+.film__poster {
+  width: 100%;
+  object-fit: cover;
+}
+.film__title {
+  font-size: 25px;
+}
+.search__input {
+  text-align: center;
+}
+.next-prev__buttons {
+  text-align: center;
+}
+.films__prev-button,
+.films__next-button {
+  padding: 15px;
+  width: 100px;
+  margin: 0 auto;
+  color: green;
+  background-color: black;
+}
