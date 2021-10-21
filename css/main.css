@@ -64,3 +64,11 @@ body {
   color: green;
   background-color: black;
 }
+#myslider {
+  width: 100%;
+  height: 600px;
+  text-align: center;
+}
+.img--carusel {
+  width: 100%;
+}
